@@ -1,0 +1,115 @@
+.pb {
+    color: var(--Dark-01, #181818);
+
+    font-size: 45px;
+
+    font-weight: 800;
+
+}
+
+.pd {
+    color: #FD6E0A;
+    ;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav>ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    text-align: center;
+    margin: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 200px;
+    align-items: center;
+}
+
+.btn {
+    border-radius: 5px;
+    background: #FD6E0A;
+    text-align: center;
+    color: aliceblue;
+    border: 0px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 15px 30px;
+}
+
+
+.banner content {}
+
+.banner {
+    padding: 30px 30px 0 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img {
+    width: 400px;
+    /* height: 676px; */
+    flex-shrink: 0;
+    /* background: url(<path-to-image>), lightgray -192.573px 0px / 173.656% 100% no-repeat; */
+}
+ header{
+    background-color:  #FFF8F3;
+    background-image: url(../image/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+ } .hi{
+    font-size: 45px;
+    font-weight: 600px; margin-bottom: 0;
+ }
+ .bannarcontant{
+    max-width: 500px;
+ }
+ .Mary{
+    font-size: 85px;
+    font-weight: 700px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+ }
+
+.section{
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+     margin:130px ;
+}
+
+
+
+
+ .section-title{
+    color: #181818;
+text-align: center;
+
+font-size: 35px;
+
+font-weight: 700;
+
+ }
+ .section-discription{
+    color:  #757575;
+text-align: center;
+
+font-size: 18px;
+
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+ }
